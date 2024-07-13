@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Vías </title>
+    <link rel="icon" href="fotos/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="fotos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo5.css">
+    <style>
+        /* Estilo para el contenedor de la fecha */
+        .fecha {
+            position: absolute;
+            top: 0;
+            right: 0px; /* Ajusta la distancia desde el borde derecho */
+            font-size: 14px; /* Tamaño de fuente */
+            color: #fff; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vías</h1>
+        <nav>
+            <ul>
+                <li><a href="prueba2.html">Pagina principal</a></li>
+                <li><a href="movimiento-de-tierras.html">Movimiento de Tierras</a></li>
+                <li><a href="instalaciones-hidraulicas.html">Instalaciones Hidráulicas</a></li>
+                <li><a href="pontones.html">Pontones</a></li>
+                <li><a href="interventorias.html">Interventoría</a></li>
+                <li><a href="prueba2.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor para la fecha -->
+        <div class="fecha" id="fechaActual"></div>
+    </header>
+
+    <section id="contenido">
+        <h2>Diseño de Vías</h2>
+        <div class="container">
+            <p>Diseño geométrico de la vía, que abarca la disposición de calzada, carriles, banca, curvas horizontales y verticales, pendientes, peraltes, secciones transversales, intersecciones y señalización. Se emplean normas y estándares para garantizar la seguridad y la comodidad de los usuarios.</p>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="container">
+            
+            <!-- Primer servicio -->
+            <div class="servicio">
+                <img src="fotos/topografiavial.jpg" alt="Topografia para diseño vial">
+                <h3>Topografia</h3>
+                <p>Levantamientos topográficos de corredores para las diferentes opciones de alineamientos</p>
+            </div>
+            
+            <!-- Segundo servicio -->
+            <div class="servicio">
+                <img src="fotos/diseno vias.jpg" alt="Diseño de vías">
+                <h3>Diseño de vías</h3>
+                <p>Diseño de vía, alineamientos, secciones transversales, perfiles, obras especiales, drenajes, pontones, utilizando software especializado</p>
+            </div>
+            
+            <!-- Tercer servicio -->
+            <div class="servicio">
+                <img src="fotos/geotecniavial.jpg" alt="Geotecnia de los corredores">
+                <h3>Geotecnia</h3>
+                <p>Verificación en los corredores viales de los aspectos geotécnicos, para establecimiento de obras de protección</p>
+            </div>
+            
+            <!-- Cuarto servicio -->
+            <div class="servicio">
+                <img src="fotos/ambientalvial.jpg" alt="Verificación Ambiental">
+                <h3>Verificación Ambiental</h3>
+                <p>Verificación ambiental en cada uno de los corredores viales, para verificar inconvenientes de construcción y como se pueden remediar</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ing. Laurentino Saavedra Vargas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Script para obtener y mostrar la fecha actual -->
+    <script>
+        // Función para obtener y mostrar la fecha actual
+        function mostrarFecha() {
+            var fecha = new Date();
+            var options = { year: 'numeric', month: 'long', day: 'numeric' };
+            var fechaFormateada = fecha.toLocaleDateString('es-ES', options);
+            document.getElementById('fechaActual').textContent = fechaFormateada;
+        }
+
+        // Llama a la función para mostrar la fecha cuando la página cargue
+        window.onload = function() {
+            mostrarFecha();
+        };
+    </script>
+</body>
+</html>

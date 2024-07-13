@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontones </title>
+    <link rel="icon" href="fotos/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="fotos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo8.css">
+    <style>
+        /* Estilo para el contenedor de la fecha */
+        .fecha {
+            position: absolute;
+            top: 0;
+            right: 0px; /* Ajusta la distancia desde el borde derecho */
+            font-size: 14px; /* Tamaño de fuente */
+            color: #fff; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interventoría</h1>
+        <nav>
+            <ul>
+                <li><a href="prueba2.html">Pagina principal</a></li>
+                <li><a href="movimiento-de-tierras.html">Movimiento de Tierras</a></li>
+                <li><a href="vias.html">Diseño de Vías</a></li>
+                <li><a href="instalaciones-hidraulicas.html">Instalaciones Hidráulicas</a></li>
+                <li><a href="pontones.html">Pontones</a></li>
+                <li><a href="prueba2.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor para la fecha -->
+        <div class="fecha" id="fechaActual"></div>
+    </header>
+
+    <section id="contenido">
+        <h2>Interventoría/Gestoría</h2>
+        <div class="container">
+            <p>Se realiza interventoría de construcción de facilidades, industriales, petroleras, comerciales en actividades como movimiento de tierras, vias de acceso, instalaciones hidraulicas y sanitarias, acueductos y alcantarillados, protecciones rivereñas, puentes de luces pequeñas, etc.</p>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="container">
+            
+            <!-- Primer servicio -->
+            <div class="servicio">
+                <img src="fotos/interventoriafacilidades.jpg" alt="Interventoria para facilidades">
+                <h3>Interventoría de Facilidades</h3>
+                <p>Interventoría de diseño y construcción de todo tipo de facilidades, locaciones, layout, clusters y/o islas, construcción para bases de tanques de almacenamiento de crudo o agua, filtros, unidades iAF, bases de bombas, etc</p>
+            </div>
+            
+            <!-- Segundo servicio -->
+            <div class="servicio">
+                <img src="fotos/interventoriavias.jpg" alt="Interventoria de vías">
+                <h3>Interventoría de Vias</h3>
+                <p>Interventoría de diseño y construcción de vías</p>
+            </div>
+            
+            <!-- Tercer servicio -->
+            <div class="servicio">
+                <img src="fotos/interventoriaIH.jpg" alt="Interventoría a Instalaciones Hidráulicas">
+                <h3>Interventoría a Instalaciones Hidráulicas</h3>
+                <p>Interventoría de instalaciones hidráulicas de facilidades, locaciones, para edificaciones, para acueductos y alcantarillados, y obras especiales</p>
+            </div>
+            
+            <!-- Cuarto servicio -->
+            <div class="servicio">
+                <img src="fotos/interventoriapontones.jpg" alt="Interventoría de pontones">
+                <h3>Interventoría de Pontones</h3>
+                <p>Interventoría para el diseño y construcción de puentes con luces hasta de 20m</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ing. Laurentino Saavedra Vargas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Script para obtener y mostrar la fecha actual -->
+    <script>
+        // Función para obtener y mostrar la fecha actual
+        function mostrarFecha() {
+            var fecha = new Date();
+            var options = { year: 'numeric', month: 'long', day: 'numeric' };
+            var fechaFormateada = fecha.toLocaleDateString('es-ES', options);
+            document.getElementById('fechaActual').textContent = fechaFormateada;
+        }
+
+        // Llama a la función para mostrar la fecha cuando la página cargue
+        window.onload = function() {
+            mostrarFecha();
+        };
+    </script>
+</body>
+</html>

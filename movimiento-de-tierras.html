@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimiento de Tierras </title>
+    <link rel="icon" href="fotos/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="fotos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo4.css">
+    <style>
+        /* Estilo para el contenedor de la fecha */
+        .fecha {
+            position: absolute;
+            top: 0;
+            right: 0px; /* Ajusta la distancia desde el borde derecho */
+            font-size: 14px; /* Tamaño de fuente */
+            color: #fff; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movimiento de Tierras</h1>
+        <nav>
+            <ul>
+                <li><a href="prueba2.html">Pagina principal</a></li>
+                <li><a href="vias.html">Diseño de Vías</a></li>
+                <li><a href="instalaciones-hidraulicas.html">Instalaciones Hidráulicas</a></li>
+                <li><a href="pontones.html">Pontones</a></li>
+                <li><a href="interventorias.html">Interventoría</a></li>
+                <li><a href="prueba2.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor para la fecha -->
+        <div class="fecha" id="fechaActual"></div>
+    </header>
+
+    <section id="contenido">
+        <h2>Diseño de Movimiento de Tierras</h2>
+        <div class="container">
+            <p>El diseño de movimiento de tierras es un proceso fundamental en la ingeniería civil y la construcción, que se centra en la planificación y ejecución de las actividades necesarias para preparar un terreno antes de iniciar la construcción de estructuras o infraestructuras. </p>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="container">
+            
+            <!-- Primer servicio -->
+            <div class="servicio">
+                <img src="fotos/topografia.jpg" alt="Topografia para diseño">
+                <h3>Topografia</h3>
+                <p>Levantamientos topográficos, nivelaciones, toma de asentamientos, alineamientos, perfiles de terreno, generación de curvas de nivel </p>
+            </div>
+            
+            <!-- Segundo servicio -->
+            <div class="servicio">
+                <img src="fotos/diseno facilidades.jpg" alt="Diseño de facilidades 3DCIVIL">
+                <h3>Diseño de Facilidades/layout</h3>
+                <p>Diseño de facilidades industriales, locaciones de extracción de petroleo y gas, establecimiento de taludes de corte y relleno, utilizando software especializado</p>
+            </div>
+            
+            <!-- Tercer servicio -->
+            <div class="servicio">
+                <img src="fotos/geotecnia.jpg" alt="Geotecnia">
+                <h3>Geotecnia</h3>
+                <p>Verificación de las áreas en los aspectos geotécnicos, para diseño de cada una de las obras propuestas</p>
+            </div>
+            
+            <!-- Cuarto servicio -->
+            <div class="servicio">
+                <img src="fotos/ambiental.jpg" alt="Verificación Ambiental">
+                <h3>Verificación Ambiental</h3>
+                <p>Verificación ambiental en cada uno de los sitios donde se desarrollaran los proyectos, para verificar inconvenientes de construcción y como se pueden remediar</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ing. Laurentino Saavedra Vargas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Script para obtener y mostrar la fecha actual -->
+    <script>
+        // Función para obtener y mostrar la fecha actual
+        function mostrarFecha() {
+            var fecha = new Date();
+            var options = { year: 'numeric', month: 'long', day: 'numeric' };
+            var fechaFormateada = fecha.toLocaleDateString('es-ES', options);
+            document.getElementById('fechaActual').textContent = fechaFormateada;
+        }
+
+        // Llama a la función para mostrar la fecha cuando la página cargue
+        window.onload = function() {
+            mostrarFecha();
+        };
+    </script>
+</body>
+</html>

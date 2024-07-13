@@ -1,0 +1,163 @@
+/* Estilos generales */
+*{
+    margin: 0; /*Propiedad abreviada para establecer valores para el grosor del área del margen.*/
+    padding: 0; /*para establecer valores para el grosor del área de relleno.*/
+    box-sizing: border-box; /*Especifica el comportamiento de las propiedades 'ancho' y 'alto'. */
+}
+head {
+    background-color: rgb(209, 209, 236); /* Fondo azul */
+    color: white; /* Texto en blanco */
+}  
+body {
+    /*background-image: url('D:\pagina web aprendiendo\fotos\portada.jpg'); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../fotos/portadainterventoria.jpg'); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
+    background-size: cover; /* Cubre todo el cuerpo con la imagen */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
+    font-family: Arial, sans-serif; /* Define la fuente principal para todo el cuerpo del documento */
+    line-height: 1.6; /* Establece la altura de línea a 1.6 veces el tamaño de la fuente actual */
+}
+
+.container { /*.container puede ser usada en varios lugares de tu HTML y se aplica a todos los elementos que tengan esa clase.*/
+    width: 100%; /* Establece el ancho del contenedor al 100% del ancho del contenedor padre */
+    max-width: 1200px; /* Establece el ancho máximo del contenedor en 1200px */
+    margin: 0 auto; /* Centra el contenedor horizontalmente utilizando margen automático */
+    padding: 20px; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
+}
+
+header {
+    max-width: 1200px; /* Establece un ancho máximo para el header */
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../fotos/portadainterventoria.jpg'); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:relative;
+    margin: 0 auto; /* Centra el header horizontalmente */
+    text-align: center; /* Centra todo el texto dentro del header */
+}
+
+header .container {
+    width: 100%; /* Ancho máximo del contenido */
+    max-width: 800px; /* Ancho máximo para el contenido dentro del header */
+    margin: 0 auto; /* Centrar el contenedor */
+    background-color: rgba(0, 0, 0, 0.1); /* Color de fondo semi-transparente para el contenido*/
+    padding: 20px; /* Espaciado interno*/
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+header h1 {
+    color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
+    font-size: 2em; /* Tamaño de fuente del título h1 */
+    text-align: center;
+    margin: 0; /* Elimina los márgenes externos del título h1 */
+}
+
+header nav ul {
+    list-style: none; /* Elimina los estilos de lista (viñetas) de la lista de navegación */
+}
+
+header nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea, uno al lado del otro */
+    margin-right: 20px; /* Margen derecho entre cada elemento de la lista */
+}
+
+header nav ul li a {
+    color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    font-size: 1.4em; /* Tamaño de fuente de los enlaces */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre los enlaces */
+}
+
+#contenido {
+    height: 150px; /* Altura de la sección*/
+    position: relative; /* Establecer posición relativa*/
+    text-align: justify; /* Justifica el contenido que se encuentra en el texto diseño de movimiento de tierras*/
+    color: #fff; /* Color de texto blanco para contraste*/
+    margin-top: 20px; /* Reducir margen superior */
+    margin-bottom: 20px; /* Reducir margen inferior */
+}
+/* Establece estilos container 2 aparición*/
+.container {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenedor */
+    background-color: rgba(0, 0, 0, 0.3); /* Color de fondo semi-transparente para el contenido*/
+    padding: 20px; /* Espaciado interno*/
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+section {
+    background-color:  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3); /*#42a4cad7;  Color de fondo del header con transparencia */
+    color: #fff; /* Color de texto del section */
+    padding: 40px 0; /* Relleno interno superior e inferior de 40px, sin relleno horizontal */ /* Aplica un relleno de 40px arriba y abajo dentro de todos los elementos <section>. Esto asegura un espacio uniforme alrededor del contenido dentro de las secciones. */
+}
+
+section h2 {
+    font-size: 2em; /*stablece el tamaño de la fuente del elemento <h2> dentro de las secciones en 2 veces el tamaño de la fuente predeterminado.*/
+    margin-bottom: 20px; /*Añade un margen inferior de 20px al elemento <h2>. Esto separa el título de la sección del contenido que le sigue. */
+    text-align: center;
+}
+
+/* Establece estilos para una sección específica de servicios utilizando flexbox para la disposición y definición de estilos para cada servicio dentro de esta sección.*/
+#servicios {
+    padding: 40px 0; /* Espacio interno superior e inferior */
+    background-color:  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3); /* Color de fondo */
+    color: #fff;  /*Define el color del texto del <servicios> como blanco (#fff).*/
+    text-align: center; /* Centrar contenido */
+}
+/* Establece estilos container 3 aparición*/
+.container {
+    display: flex;
+    flex-wrap: wrap; /* permite que los elementos se muevan automáticamente a la siguiente línea o columna, Permite que los servicios se ajusten en varias líneas */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    gap: 20px; /* Espacio entre los elementos */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicio {
+    width: calc(50% - 20px); /* Ajusta el ancho para dos columnas con espacio entre ellas */
+    max-width: 500px; /* Ancho máximo para cada servicio */
+    background: linear-gradient(to right, #FFA500, #FFDAB9); /* Naranja a melocotón */
+    /*background-color: #d17327; /* Fondo para el cajetin que contiene las fotos de servicios */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
+    text-align: justify; /* Alinear texto, Justificado*/
+    margin-bottom: 20px; /* Espacio inferior entre servicios */
+}
+
+.servicio img {
+    width: 100%; /* Imagen ocupa todo el ancho disponible */
+    height: 70%; /* Ajusta automáticamente la altura para mantener la proporción */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espacio inferior entre imagen y contenido */
+}
+
+.servicio h3 {
+    font-size: 1.5em; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio inferior */
+    color: #000; /* Color de texto para los titulos de topografia, diseño de facilidades, etc, todo lo que esta en servicios */
+}
+
+.servicio p {
+    line-height: 1.6; /* Espaciado de línea */
+    color: #000; /* Color del texto que se encuentra describiendo cada servicio*/
+}
+
+/*Estilo para el pie de pagina */
+footer {
+    background-color: rgba(43, 50, 178, 0.4), rgba(20, 137, 204, 0.3); /*Establece el color de fondo del <footer> como un tono azul claro. */
+    color: #fff;  /*Define el color del texto del <footer> como blanco (#fff). */
+    text-align: center;  /*Centra el contenido del <footer> horizontalmente dentro de su contenedor. */
+    padding: 10px 0;  /*Añade un relleno de 10px arriba y abajo dentro del <footer>, asegurando un espacio uniforme alrededor del contenido del footer. */
+}
+
+footer p {
+    margin: 0; /*Elimina los márgenes predeterminados del párrafo (<p>) dentro del <footer>, asegurando que no haya espacio adicional entre el texto y el borde del footer. */
+}
+
