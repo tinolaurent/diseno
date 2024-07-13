@@ -10,7 +10,7 @@ head {
 }  
 body {
     /*background-image: url('D:\pagina web aprendiendo\fotos\portada.jpg'); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../fotos/portadapontones.jpg'); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("fotos/portadapontones.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
     background-size: cover; /* Cubre todo el cuerpo con la imagen */
     background-repeat: no-repeat; 
     background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
