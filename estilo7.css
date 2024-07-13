@@ -29,7 +29,7 @@ header {
     max-width: 1200px; /* Establece un ancho máximo para el header */
     width: 100%;
     height: 80px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../fotos/portadapontones.jpg'); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("fotos/portadapontones.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
