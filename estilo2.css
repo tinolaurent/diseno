@@ -11,8 +11,8 @@ head {
 .fecha {
     position: absolute;
     top: 0;
-    right: 20px; /* Ajusta la distancia desde el borde derecho */
-    font-size: 14px; /* Tamaño de fuente */
+    right: 1.67%; /* Ajusta la distancia desde el borde derecho */
+    font-size: 1.167%; /* Tamaño de fuente */
     color: #333; /* Color del texto */
 }
 body {
