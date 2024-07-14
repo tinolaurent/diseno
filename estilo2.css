@@ -75,6 +75,8 @@ header nav ul li a:hover {
     position: relative; /* Establecer posición relativa*/
     text-align: justify; /* Justifica el contenido que se encuentra en el texto bienvenido/a*/
     color: #fff; /* Color de texto blanco para contraste*/
+    margin-top: 20px; /* Reducir margen superior */
+    margin-bottom: 20px; /* Reducir margen inferior */
 }
 /* Establece estilos container 2 aparición*/
 .container {
@@ -94,6 +96,7 @@ section {
 section h2 {
     font-size: 2em; /*stablece el tamaño de la fuente del elemento <h2> dentro de las secciones en 2 veces el tamaño de la fuente predeterminado.*/
     margin-bottom: 1.67%; /*Añade un margen inferior de 20px al elemento <h2>. Esto separa el título de la sección del contenido que le sigue. */
+    text-align: center;
 }
 
 /* Establece estilos para una sección específica de servicios utilizando flexbox para la disposición y definición de estilos para cada servicio dentro de esta sección.*/
@@ -114,7 +117,7 @@ section h2 {
 }
 
 .servicio {
-    width: calc(50% - 1.67%); /* Ajusta el ancho para dos columnas con espacio entre ellas */
+    width: calc(50% - 20px); /* Ajusta el ancho para dos columnas con espacio entre ellas */
     max-width: 41.67%; /* Ancho máximo para cada servicio */
     background: linear-gradient(to right, rgb(22, 22, 204), lightgreen);
     /*background-color: #fff; /* Fondo blanco para cada servicio */
