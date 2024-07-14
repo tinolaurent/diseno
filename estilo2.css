@@ -1,4 +1,4 @@
-/* Estilos generales */
+d/* Estilos generales */
 * {
     margin: 0; /*Propiedad abreviada para establecer valores para el grosor del área del margen. */
     padding: 0; /*para establecer valores para el grosor del área de relleno. */
@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat; 
     background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
     font-family: Arial, sans-serif; /* Define la fuente principal para todo el cuerpo del documento */
-    line-height: 1.6; /* Establece la altura de línea a 1.6 veces el tamaño de la fuente actual */
+    line-height: 1.6; /* Establece el espaciado (distancia entre texto de arriba y el de abajo) a 1.6 veces el tamaño de la fuente actual */
 }
 
 .container {
@@ -52,7 +52,7 @@ header .container {
 
 header h1 {
     color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
-    font-size: 2em; /* Tamaño de fuente del título h1 */
+    font-size: 2.67%; /* Tamaño de fuente del título h1, es decir (16px x 2)=32px, como no se definio la altura por defecto toma 16px */
     margin: 0; /* Elimina los márgenes externos del título h1 */
 }
 
@@ -68,7 +68,7 @@ header nav ul li {
 header nav ul li a {
     color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
-    font-size: 1.4em; /* Tamaño de fuente de los enlaces */
+    font-size: 1.87%; /* Tamaño de fuente de los enlaces */
 }
 header nav ul li a:hover {
     text-decoration: underline; /* Añade subrayado al pasar el ratón sobre los enlaces */
