@@ -5,7 +5,7 @@ d/* Estilos generales */
     box-sizing: border-box; /*Especifica el comportamiento de las propiedades 'ancho' y 'alto'. */
 }
 head {
-    background-color: blue; /* Fondo azul */
+    background-color: rgb(209, 209, 236); /* Fondo */
     color: white; /* Texto en blanco */
 }  
 body {
