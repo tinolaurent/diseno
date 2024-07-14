@@ -58,7 +58,7 @@ header nav ul {
 
 header nav ul li {
     display: inline; /* Muestra los elementos de la lista en línea, uno al lado del otro */
-    margin-right: 1.67%; /* Margen derecho entre cada elemento de la lista */
+    margin-right: 20px; /* Margen derecho entre cada elemento de la lista */
 }
 
 header nav ul li a {
