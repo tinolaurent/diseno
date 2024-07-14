@@ -40,6 +40,8 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position:relative;
+    margin: 0 auto;
+    text-align: center;
 }
 
 header .container {
