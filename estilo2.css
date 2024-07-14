@@ -8,15 +8,7 @@ head {
     background-color: blue; /* Fondo azul */
     color: white; /* Texto en blanco */
 }  
-.fecha {
-    position: absolute;
-    top: 0;
-    right: 1.67%; /* Ajusta la distancia desde el borde derecho */
-    font-size: 1.167%; /* Tamaño de fuente */
-    color: #333; /* Color del texto */
-}
 body {
-    /*background-image: url('D:\pagina web aprendiendo\fotos\portada.jpg'); */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
     background-size: cover; /* Cubre todo el cuerpo con la imagen */
     background-repeat: no-repeat; 
