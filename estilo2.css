@@ -19,15 +19,15 @@ body {
 
 .container {
     width: 100%; /* Establece el ancho del contenedor al 100% del ancho del contenedor padre */
-    max-width: 100%; /* Establece el ancho máximo del contenedor en 1200px */
+    max-width: 1200px; /* Establece el ancho máximo del contenedor en 1200px */
     margin: 0 auto; /* Centra el contenedor horizontalmente utilizando margen automático */
-    padding: 1.67%; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
+    padding: 20px; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
 }
 
 header {
     max-width: 100%;
     width: 100%;
-    height: 12.5%;
+    height: 150px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,11 +38,11 @@ header {
 }
 
 header .container {
-    max-width: 67%; /* Ancho máximo del contenido */
+    max-width:800px ; /* Ancho máximo del contenido */
     margin: 0 auto; /* Centrar el contenedor */
     background-color: rgba(0, 0, 0, 0.1); /* Color de fondo semi-transparente para el contenido*/
-    padding: 1.67%; /* Espaciado interno*/
-    border-radius: 0.83%; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno*/
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 header h1 {
@@ -71,7 +71,7 @@ header nav ul li a:hover {
 }
 
 #inicio {
-    height: 20%; /* Altura de la sección*/
+    height: 240px; /* Altura de la sección*/
     position: relative; /* Establecer posición relativa*/
     text-align: justify; /* Justifica el contenido que se encuentra en el texto bienvenido/a*/
     color: #fff; /* Color de texto blanco para contraste*/
@@ -80,28 +80,28 @@ header nav ul li a:hover {
 }
 /* Establece estilos container 2 aparición*/
 .container {
-    max-width: 67%; /* Ancho máximo del contenido */
+    max-width: 800px; /* Ancho máximo del contenido */
     margin: 0 auto; /* Centrar el contenedor */
     background-color: rgba(0, 0, 0, 0.3); /* Color de fondo semi-transparente para el contenido*/
-    padding: 1.67%; /* Espaciado interno*/
-    border-radius: 0.83%; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno*/
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 section {
     background-color:  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3); /*#42a4cad7;  Color de fondo del header con transparencia */
     color: #fff; /* Color de texto del section */
-    padding: 3.33% 0; /* Relleno interno superior e inferior de 40px, sin relleno horizontal */ /* Aplica un relleno de 40px arriba y abajo dentro de todos los elementos <section>. Esto asegura un espacio uniforme alrededor del contenido dentro de las secciones. */
+    padding: 40px 0; /* Relleno interno superior e inferior de 40px, sin relleno horizontal */ /* Aplica un relleno de 40px arriba y abajo dentro de todos los elementos <section>. Esto asegura un espacio uniforme alrededor del contenido dentro de las secciones. */
 }
 
 section h2 {
     font-size: 2em; /*stablece el tamaño de la fuente del elemento <h2> dentro de las secciones en 2 veces el tamaño de la fuente predeterminado.*/
-    margin-bottom: 1.67%; /*Añade un margen inferior de 20px al elemento <h2>. Esto separa el título de la sección del contenido que le sigue. */
+    margin-bottom: 20px; /*Añade un margen inferior de 20px al elemento <h2>. Esto separa el título de la sección del contenido que le sigue. */
     text-align: center;
 }
 
 /* Establece estilos para una sección específica de servicios utilizando flexbox para la disposición y definición de estilos para cada servicio dentro de esta sección.*/
 #servicios {
-    padding: 3.33% 0; /* Espacio interno superior e inferior */
+    padding: 40px 0; /* Espacio interno superior e inferior */
     background-color:  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3); /* Color de fondo */
     color: #fff;  /*Define el color del texto del <servicios> como blanco (#fff).*/
     text-align: center; /* Centrar contenido */
@@ -111,33 +111,33 @@ section h2 {
     display: flex;
     flex-wrap: wrap; /* permite que los elementos se muevan automáticamente a la siguiente línea o columna, Permite que los servicios se ajusten en varias líneas */
     justify-content: center; /* Centra los elementos en el contenedor */
-    gap: 1.67%; /* Espacio entre los elementos */
-    max-width: 100%;
+    gap: 20px; /* Espacio entre los elementos */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .servicio {
     width: calc(50% - 20px); /* Ajusta el ancho para dos columnas con espacio entre ellas */
-    max-width: 41.67%; /* Ancho máximo para cada servicio */
+    max-width: 500px; /* Ancho máximo para cada servicio */
     background: linear-gradient(to right, rgb(22, 22, 204), lightgreen);
     /*background-color: #fff; /* Fondo blanco para cada servicio */
-    padding: 1.67%; /* Espacio interno */
-    border-radius: 0.83%; /* Bordes redondeados */
-    box-shadow: 0 0 0.83% rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
     text-align: justify; /* Alinear texto, Justificado*/
-    margin-bottom: 1.67%; /* Espacio inferior entre servicios */
+    margin-bottom: 20px; /* Espacio inferior entre servicios */
 }
 
 .servicio img {
     width: 100%; /* Imagen ocupa todo el ancho disponible */
     height: 70%; /* Ajusta automáticamente la altura para mantener la proporción */
-    border-radius: 0.67%; /* Bordes redondeados para la imagen */
-    margin-bottom: 0.83%; /* Espacio inferior entre imagen y contenido */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espacio inferior entre imagen y contenido */
 }
 
 .servicio h3 {
     font-size: 1.5em; /* Tamaño del título */
-    margin-bottom: 0.83%; /* Espacio inferior */
+    margin-bottom: 10px; /* Espacio inferior */
     color: #000; /* Color de texto para movimiento, vias, instalaciones, todo lo que esta en servicios */
 }
 
@@ -149,7 +149,7 @@ section h2 {
     display: grid; /* Utiliza CSS Grid para el diseño */
     grid-template-columns: auto auto; /* Dos columnas automáticas */
     align-items: left; /* Centra verticalmente los elementos */
-    column-gap: 0.83%; /* Espacio entre columnas */
+    column-gap: 10px; /* Espacio entre columnas */
 }
 
 .info-contacto-grid img {
@@ -163,8 +163,8 @@ section h2 {
 form input, form textarea, form button {
     display: block; /*Hace que los elementos <input>, <textarea> y <button> dentro de formularios sean elementos de bloque, ocupando todo el ancho disponible. */
     width: 100%; /*Establece que los elementos ocupen el 100% del ancho disponible dentro de su contenedor. */
-    margin-bottom: 0.83%; /*Añade un margen inferior de 10px entre estos elementos para separarlos visualmente. */
-    padding: 0.83%;  /*Agrega un relleno interior de 10px dentro de estos elementos para mejorar la experiencia de usuario. */
+    margin-bottom: 10px; /*Añade un margen inferior de 10px entre estos elementos para separarlos visualmente. */
+    padding: 10px;  /*Agrega un relleno interior de 10px dentro de estos elementos para mejorar la experiencia de usuario. */
     font-size: 1em; /*Define el tamaño de la fuente de estos elementos como 1em, es decir, el tamaño de fuente base del documento. */
     border: 1px solid #ccc; /*Aplica un borde de 1px sólido de color gris (#ccc) alrededor de estos elementos para distinguirlos de otros contenidos y formularios */
 }
