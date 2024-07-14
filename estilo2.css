@@ -27,7 +27,7 @@ body {
 
 .container {
     width: 100%; /* Establece el ancho del contenedor al 100% del ancho del contenedor padre */
-    max-width: 100%; /* Establece el ancho máximo del contenedor en 1200px */
+    max-width: 80%; /* Establece el ancho máximo del contenedor en 1200px */
     margin: 0 auto; /* Centra el contenedor horizontalmente utilizando margen automático */
     padding: 1.67%; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
 }
