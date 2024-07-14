@@ -70,11 +70,6 @@ header nav ul li a {
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
     font-size: 1.4em; /* Tamaño de fuente de los enlaces */
 }
-nav ul li:first-child a img {
-    max-height: 2%; /* Altura máxima de la imagen del primer enlace */
-    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
-    margin-right: 0.0417%; /* Espacio entre la imagen y el texto */
-}
 header nav ul li a:hover {
     text-decoration: underline; /* Añade subrayado al pasar el ratón sobre los enlaces */
 }
