@@ -46,7 +46,7 @@ header {
 }
 
 header .container {
-    max-width: 100%; /* Ancho máximo del contenido */
+    max-width: 67%; /* Ancho máximo del contenido */
     margin: 0 auto; /* Centrar el contenedor */
     background-color: rgba(0, 0, 0, 0.1); /* Color de fondo semi-transparente para el contenido*/
     padding: 1.67%; /* Espaciado interno*/
@@ -56,6 +56,7 @@ header .container {
 header h1 {
     color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
     font-size: 2em; /* Tamaño de fuente del título h1, es decir (16px x 2)=32px, como no se definio la altura por defecto toma 16px */
+    text-align: center;
     margin: 0; /* Elimina los márgenes externos del título h1 */
 }
 
