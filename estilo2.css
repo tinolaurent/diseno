@@ -33,6 +33,7 @@ body {
 }
 
 header {
+    max-width: 1200px;
     width: 100%;
     height: 12.5%;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
