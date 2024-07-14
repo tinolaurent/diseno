@@ -78,7 +78,7 @@ header nav ul li a:hover {
 }
 /* Establece estilos container 2 aparición*/
 .container {
-    max-width: 67%; /* Ancho máximo del contenido */
+    max-width: 80%; /* Ancho máximo del contenido */
     margin: 0 auto; /* Centrar el contenedor */
     background-color: rgba(0, 0, 0, 0.3); /* Color de fondo semi-transparente para el contenido*/
     padding: 1.67%; /* Espaciado interno*/
