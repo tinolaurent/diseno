@@ -78,11 +78,11 @@ header nav ul li a:hover {
     margin-top: 20px; /* Reducir margen superior */
     margin-bottom: 20px; /* Reducir margen inferior */
 }
-/* Establece estilos container 2 aparición*/
+/* Establece estilos del contenedor que dice bienvenido/a al diseño*/
 .container {
     max-width: 800px; /* Ancho máximo del contenido */
     margin: 0 auto; /* Centrar el contenedor */
-    background-color: rgba(0, 0, 0, 0.3); /* Color de fondo semi-transparente para el contenido*/
+    background-color: transparent; /* Color de fondo negro semi-transparente para el contenido*/
     padding: 20px; /* Espaciado interno*/
     border-radius: 10px; /* Bordes redondeados */
 }
@@ -102,7 +102,7 @@ section h2 {
 /* Establece estilos para una sección específica de servicios utilizando flexbox para la disposición y definición de estilos para cada servicio dentro de esta sección.*/
 #servicios {
     padding: 40px 0; /* Espacio interno superior e inferior */
-    background-color:  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3); /* Color de fondo */
+    background-color:  transparent; /* Color de fondo */
     color: #fff;  /*Define el color del texto del <servicios> como blanco (#fff).*/
     text-align: center; /* Centrar contenido */
 }
