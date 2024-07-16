@@ -3,11 +3,7 @@
     margin: 0; /*Propiedad abreviada para establecer valores para el grosor del área del margen.*/
     padding: 0; /*para establecer valores para el grosor del área de relleno.*/
     box-sizing: border-box; /*Especifica el comportamiento de las propiedades 'ancho' y 'alto'. */
-}
-head {
-    background-color: rgb(209, 209, 236); /* Fondo azul */
-    color: white; /* Texto en blanco */
-}  
+} 
 body {
     /*background-image: url('D:\pagina web aprendiendo\fotos\portada.jpg'); */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("fotos/portadainterventoria.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
@@ -22,6 +18,7 @@ body {
     width: 100%; /* Establece el ancho del contenedor al 100% del ancho del contenedor padre */
     max-width: 1200px; /* Establece el ancho máximo del contenedor en 1200px */
     margin: 0 auto; /* Centra el contenedor horizontalmente utilizando margen automático */
+    background-color: transparent; /* Color de fondo transparente para el contenido*/
     padding: 20px; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
 }
 
