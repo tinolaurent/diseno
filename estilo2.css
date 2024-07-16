@@ -17,6 +17,7 @@ body {
     width: 100%; /* Establece el ancho del contenedor al 100% del ancho del contenedor padre */
     max-width: 1200px; /* Establece el ancho máximo del contenedor en 1200px */
     margin: 0 auto; /* Centra el contenedor horizontalmente utilizando margen automático */
+    background-color: transparent; /* Color de fondo semi-transparente para el contenido*/
     padding: 20px; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
 }
 
