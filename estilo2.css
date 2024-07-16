@@ -4,10 +4,6 @@ d/* Estilos generales */
     padding: 0; /*para establecer valores para el grosor del área de relleno. */
     box-sizing: border-box; /*Especifica el comportamiento de las propiedades 'ancho' y 'alto'. */
 }
-head {
-    background-color: rgb(0, 0, 0); /* Fondo */
-    color: white; /* Texto en blanco */
-}  
 body {
     background: linear-gradient(transparent), url("fotos/portada.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
     background-size: cover; /* Cubre todo el cuerpo con la imagen */
