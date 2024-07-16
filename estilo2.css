@@ -88,7 +88,7 @@ header nav ul li a:hover {
 }
 
 section {
-    background-color:  rgba(0, 0, 0, 0.1); /*#42a4cad7;  Color de fondo del header con transparencia */
+    background-color:  transparent; /*#42a4cad7;  Color de fondo del header con transparencia */
     color: #fff; /* Color de texto del section */
     padding: 40px 0; /* Relleno interno superior e inferior de 40px, sin relleno horizontal */ /* Aplica un relleno de 40px arriba y abajo dentro de todos los elementos <section>. Esto asegura un espacio uniforme alrededor del contenido dentro de las secciones. */
 }
@@ -182,7 +182,7 @@ form button:hover {
 
 /*Estilo para el pie de pagina */
 footer {
-    background-color: rgba(20, 137, 204, 0.1); /*Establece el color de fondo del <footer> como un tono azul claro. */
+    background-color: transparent; /*Establece el color de fondo del <footer> como un tono azul claro. */
     color: #fff;  /*Define el color del texto del <footer> como blanco (#fff). */
     text-align: center;  /*Centra el contenido del <footer> horizontalmente dentro de su contenedor. */
     padding: 10px 0;  /*Añade un relleno de 10px arriba y abajo dentro del <footer>, asegurando un espacio uniforme alrededor del contenido del footer. */
