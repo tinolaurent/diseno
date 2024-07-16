@@ -3,11 +3,7 @@
     margin: 0; /*Propiedad abreviada para establecer valores para el grosor del área del margen.*/
     padding: 0; /*para establecer valores para el grosor del área de relleno.*/
     box-sizing: border-box; /*Especifica el comportamiento de las propiedades 'ancho' y 'alto'. */
-}
-head {
-    background-color: rgb(209, 209, 236); /* Fondo azul */
-    color: white; /* Texto en blanco */
-}  
+} 
 body {
     /*background-image: url('D:\pagina web aprendiendo\fotos\portada.jpg'); */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("fotos/portadaVias.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
