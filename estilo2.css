@@ -68,7 +68,7 @@ header nav ul li a:hover {
 }
 
 #inicio {
-    height: 240px; /* Altura de la sección*/
+    height: 150px; /* Altura de la sección*/
     position: relative; /* Establecer posición relativa*/
     text-align: justify; /* Justifica el contenido que se encuentra en el texto bienvenido/a*/
     color: #fff; /* Color de texto blanco para contraste*/
