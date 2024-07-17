@@ -1,151 +1,156 @@
-d/* Estilos generales */
+/* Estilos generales */
 * {
-    margin: 0; /*Propiedad abreviada para establecer valores para el grosor del área del margen. */
-    padding: 0; /*para establecer valores para el grosor del área de relleno. */
-    box-sizing: border-box; /*Especifica el comportamiento de las propiedades 'ancho' y 'alto'. */
+    margin: 0; /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el relleno por defecto de todos los elementos */
+    box-sizing: border-box; /* Cambia el modelo de caja para incluir el padding y borde en el ancho/alto total */
 }
+
 body {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
-    background-size: cover; /* Cubre todo el cuerpo con la imagen */
-    background-repeat: no-repeat; 
-    background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
-    font-family: Arial, sans-serif; /* Define la fuente principal para todo el cuerpo del documento */
-    line-height: 1.6; /* Establece el espaciado (distancia entre texto de arriba y el de abajo) a 1.6 veces el tamaño de la fuente actual */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* Define un gradiente lineal con una imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al fondo al hacer scroll */
+    font-family: Arial, sans-serif; /* Establece la fuente del documento */
+    line-height: 1.6; /* Establece el espacio entre líneas de texto */
 }
 
 .container {
-    width: 100%; /* Establece el ancho del contenedor al 100% del ancho del contenedor padre */
-    max-width: 1200px; /* Establece el ancho máximo del contenedor en 1200px */
-    margin: 0 auto; /* Centra el contenedor horizontalmente utilizando margen automático */
-    background-color: transparent; /* Color de fondo semi-transparente para el contenido*/
-    padding: 20px; /* Añade un relleno interior de 20px alrededor del contenido del contenedor */
+    width: 100%; /* Hace que el contenedor ocupe todo el ancho disponible */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor a 1200px */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    background-color: transparent; /* Establece un fondo transparente */
+    padding: 20px; /* Añade un relleno interior de 20px */
 }
 
 header {
-    max-width: 100%;
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* define un gradiente lineal con dos colores semi-transparentes como fondo del encabezado. */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position:relative;
-    margin: 0 auto;
-    text-align: center;
+    max-width: 100%; /* Limita el ancho máximo del encabezado */
+    width: 100%; /* Hace que el encabezado ocupe todo el ancho disponible */
+    height: 150px; /* Establece la altura del encabezado */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* Fondo con imagen y gradiente */
+    background-size: cover; /* Cubre el encabezado con la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen al fondo */
+    position: relative; /* Establece la posición relativa para los elementos hijos */
+    margin: 0 auto; /* Centra el encabezado */
+    text-align: center; /* Centra el texto dentro del encabezado */
 }
 
 header .container {
-    max-width:1200px ; /* Ancho máximo del contenido */
-    margin: 0 auto; /* Centrar el contenedor */
-    background-color: transparent; /* Color de fondo semi-transparente para el contenido*/
-    padding: 20px; /* Espaciado interno*/
+    max-width: 1200px; /* Limita el ancho máximo del contenedor dentro del encabezado */
+    margin: 0 auto; /* Centra el contenedor */
+    background-color: transparent; /* Fondo transparente para el contenedor */
+    padding: 20px; /* Relleno interno de 20px */
     border-radius: 10px; /* Bordes redondeados */
 }
 
 header h1 {
-    color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
-    font-size: 2em; /* Tamaño de fuente del título h1, es decir (16px x 2)=32px, como no se definio la altura por defecto toma 16px */
-    text-align: center;
-    margin: 0; /* Elimina los márgenes externos del título h1 */
+    color: #ffffff; /* Establece el color del texto del título en blanco */
+    font-size: 2em; /* Tamaño de la fuente del título */
+    text-align: center; /* Centra el texto del título */
+    margin: 0; /* Elimina márgenes exteriores del título */
 }
 
 header nav ul {
-    list-style: none; /* Elimina los estilos de lista (viñetas) de la lista de navegación */
+    list-style: none; /* Elimina los estilos de lista (viñetas) */
 }
 
 header nav ul li {
-    display: inline; /* Muestra los elementos de la lista en línea, uno al lado del otro */
-    margin-right: 20px; /* Margen derecho entre cada elemento de la lista */
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio a la derecha entre elementos de la lista */
 }
 
 header nav ul li a {
-    color: #ffffff; /* Color de texto de los enlaces dentro de los elementos de la lista */
-    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
-    font-size: 1.4em; /* Tamaño de fuente de los enlaces */
+    color: #ffffff; /* Establece el color de los enlaces en blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 1.4em; /* Tamaño de la fuente de los enlaces */
 }
+
 header nav ul li a:hover {
-    text-decoration: underline; /* Añade subrayado al pasar el ratón sobre los enlaces */
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
 }
 
 #inicio {
-    height: 150px; /* Altura de la sección*/
-    position: relative; /* Establecer posición relativa*/
-    text-align: justify; /* Justifica el contenido que se encuentra en el texto bienvenido/a*/
-    color: #fffff; /* Color de texto negro para contraste*/
-    margin-top: 20px; /* Reducir margen superior */
-    margin-bottom: 20px; /* Reducir margen inferior */
+    height: 150px; /* Altura de la sección de inicio */
+    position: relative; /* Permite la colocación de elementos hijos de forma relativa */
+    text-align: justify; /* Justifica el texto dentro de esta sección */
+    color: #ffffff; /* Color de texto para blanco */
+    margin-top: 20px; /* Margen superior de 20px */
+    margin-bottom: 20px; /* Margen inferior de 20px */
 }
-/* Establece estilos del contenedor que dice bienvenido/a al diseño*/
+
+/* Estilos del contenedor que dice bienvenido/a al diseño */
 .container {
     max-width: 800px; /* Ancho máximo del contenido */
-    margin: 0 auto; /* Centrar el contenedor */
-    background-color: transparent; /* Color de fondo negro semi-transparente para el contenido*/
-    padding: 20px; /* Espaciado interno*/
+    margin: 0 auto; /* Centra el contenedor */
+    background-color: transparent; /* Fondo transparente */
+    padding: 20px; /* Espaciado interno */
     border-radius: 10px; /* Bordes redondeados */
 }
 
 section {
-    background-color:  transparent; /*Color de fondo transparente para bienvenida, sobre laurentino, contacto */
-    color: #fffff; /* Color de texto del section */
-    padding: 40px 0; /* Relleno interno superior e inferior de 40px, sin relleno horizontal */ /* Aplica un relleno de 40px arriba y abajo dentro de todos los elementos <section>. Esto asegura un espacio uniforme alrededor del contenido dentro de las secciones. */
+    background-color: transparent; /* Color de fondo transparente para las secciones */
+    color: #ffffff; /* Color de texto para blanco */
+    padding: 40px 0; /* Relleno interno superior e inferior */
 }
 
 section h2 {
-    font-size: 2em; /*stablece el tamaño de la fuente del elemento <h2> dentro de las secciones en 2 veces el tamaño de la fuente predeterminado.*/
-    margin-bottom: 20px; /*Añade un margen inferior de 20px al elemento <h2>. Esto separa el título de la sección del contenido que le sigue. */
-    text-align: center;
+    font-size: 2em; /* Tamaño de la fuente del encabezado de la sección */
+    margin-bottom: 20px; /* Margen inferior de 20px para separación */
+    text-align: center; /* Centra el texto del encabezado */
 }
 
-/* Establece estilos para una sección específica de servicios utilizando flexbox para la disposición y definición de estilos para cada servicio dentro de esta sección.*/
+/* Estilos para una sección específica de servicios */
 #servicios {
     padding: 40px 0; /* Espacio interno superior e inferior */
-    background-color:  transparent; /* Color de fondo */
-    color: #fff;  /*Define el color del texto del <servicios> como blanco (#fff).*/
-    text-align: center; /* Centrar contenido */
+    background-color: transparent; /* Color de fondo */
+    color: #fff; /* Define el color del texto del <servicios> como blanco */
+    text-align: center; /* Centra el contenido */
 }
-/* Establece estilos container 3 aparición*/
+
+/* Estilo para el contenedor de servicios */
 .container {
-    display: flex;
-    flex-wrap: wrap; /* permite que los elementos se muevan automáticamente a la siguiente línea o columna, Permite que los servicios se ajusten en varias líneas */
+    display: flex; /* Utiliza flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea si es necesario */
     justify-content: center; /* Centra los elementos en el contenedor */
     gap: 20px; /* Espacio entre los elementos */
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
 }
 
 .servicio {
-    width: calc(50% - 20px); /* Ajusta el ancho para dos columnas con espacio entre ellas */
+    width: calc(50% - 20px); /* Ancho para dos columnas con espacio entre ellas */
     max-width: 500px; /* Ancho máximo para cada servicio */
-    background: linear-gradient(to right, rgb(22, 22, 204), lightgreen);
-    /*background-color: #fff; /* Fondo blanco para cada servicio */
+    background: linear-gradient(to right, rgb(22, 22, 204), lightgreen); /* Fondo con gradiente para cada servicio */
+    /* background-color: #fff; /* Fondo blanco para cada servicio (comentar para usar gradiente) */
     padding: 20px; /* Espacio interno */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
-    text-align: justify; /* Alinear texto, Justificado*/
+    text-align: justify; /* Justifica el texto dentro del servicio */
     margin-bottom: 20px; /* Espacio inferior entre servicios */
 }
 
 .servicio img {
     width: 100%; /* Imagen ocupa todo el ancho disponible */
-    height: 70%; /* Ajusta automáticamente la altura para mantener la proporción */
+    height: 70%; /* Altura de la imagen ajustada automáticamente */
     border-radius: 8px; /* Bordes redondeados para la imagen */
     margin-bottom: 10px; /* Espacio inferior entre imagen y contenido */
 }
 
 .servicio h3 {
-    font-size: 1.5em; /* Tamaño del título */
+    font-size: 1.5em; /* Tamaño del título del servicio */
     margin-bottom: 10px; /* Espacio inferior */
-    color: #000; /* Color de texto para movimiento, vias, instalaciones, todo lo que esta en servicios */
+    color: #000; /* Color de texto para el título del servicio */
 }
 
 .servicio p {
-    line-height: 1.6; /* Espaciado de línea */
+    line-height: 1.6; /* Espaciado entre líneas para el texto */
     color: #000; /* Color del texto */
 }
+
 .info-contacto-grid {
     display: grid; /* Utiliza CSS Grid para el diseño */
     grid-template-columns: auto auto; /* Dos columnas automáticas */
-    align-items: left; /* Centra verticalmente los elementos */
+    align-items: left; /* Alinea verticalmente los elementos a la izquierda */
     column-gap: 10px; /* Espacio entre columnas */
 }
 
@@ -156,36 +161,28 @@ section h2 {
 .info-contacto-grid p {
     grid-column: 2; /* Texto en la segunda columna */
 }
-/*Estilos de los formularios, haciendolos elementos de bloque */
+
+/* Estilos para los formularios */
 form input, form textarea, form button {
-    display: block; /*Hace que los elementos <input>, <textarea> y <button> dentro de formularios sean elementos de bloque, ocupando todo el ancho disponible. */
-    width: 100%; /*Establece que los elementos ocupen el 100% del ancho disponible dentro de su contenedor. */
-    margin-bottom: 10px; /*Añade un margen inferior de 10px entre estos elementos para separarlos visualmente. */
-    padding: 10px;  /*Agrega un relleno interior de 10px dentro de estos elementos para mejorar la experiencia de usuario. */
-    font-size: 1em; /*Define el tamaño de la fuente de estos elementos como 1em, es decir, el tamaño de fuente base del documento. */
-    border: 1px solid #ccc; /*Aplica un borde de 1px sólido de color gris (#ccc) alrededor de estos elementos para distinguirlos de otros contenidos y formularios */
+    display: block; /* Hace que estos elementos sean bloques ocupando todo el ancho disponible */
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px para separación */
+    padding: 10px; /* Añade un relleno interno de 10px */
+    font-size: 1em; /* Define el tamaño de la fuente */
+    border: 1px solid #ccc; /* Aplica un borde gris a estos elementos */
 }
 
 form button {
-    background-color: #333; /*Establece el color de fondo del botón dentro de formularios como un tono oscuro de gris (#333). */
-    color: #fff; /*Define el color del texto del botón como blanco (#fff) */
-    border: none; /*Elimina el borde del botón para un aspecto más limpio y moderno */
-    cursor: pointer; /*Cambia el cursor del ratón a un puntero cuando pasa sobre el botón, indicando que es interactivo */
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor a puntero para indicar interactividad */
 }
 
 form button:hover {
-    background-color: #555;  /*Cambia el color de fondo del botón cuando el cursor está sobre él (hover) a un tono más oscuro de gris (#555), proporcionando retroalimentación visual al usuario. */
+    background-color: #555; /* Cambia el color de fondo del botón al hacer hover */
 }
 
-/*Estilo para el pie de pagina */
+/* Estilo para el pie de página */
 footer {
-    background-color: transparent; /*Establece el color de fondo del <footer> como un tono azul claro. */
-    color: #fff;  /*Define el color del texto del <footer> como blanco (#fff). */
-    text-align: center;  /*Centra el contenido del <footer> horizontalmente dentro de su contenedor. */
-    padding: 10px 0;  /*Añade un relleno de 10px arriba y abajo dentro del <footer>, asegurando un espacio uniforme alrededor del contenido del footer. */
-}
-
-footer p {
-    margin: 0; /*Elimina los márgenes predeterminados del párrafo (<p>) dentro del <footer>, asegurando que no haya espacio adicional entre el texto y el borde del footer. */
-}
-
+    background-color: transparent; /* Color
