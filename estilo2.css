@@ -85,8 +85,8 @@ header nav ul li a:hover {
 }
 
 section {
-    background-color:  transparent; /*#42a4cad7;  Color de fondo del header con transparencia */
-    color: #FFFFFF; /* Color de texto del section */
+    background-color:  transparent; /*Color de fondo transparente para bienvenida, sobre laurentino, contacto */
+    color: #fffff; /* Color de texto del section */
     padding: 40px 0; /* Relleno interno superior e inferior de 40px, sin relleno horizontal */ /* Aplica un relleno de 40px arriba y abajo dentro de todos los elementos <section>. Esto asegura un espacio uniforme alrededor del contenido dentro de las secciones. */
 }
 
