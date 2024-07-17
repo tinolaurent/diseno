@@ -157,4 +157,17 @@ footer {
 footer p {
     margin: 0; /*Elimina los márgenes predeterminados del párrafo (<p>) dentro del <footer>, asegurando que no haya espacio adicional entre el texto y el borde del footer. */
 }
+/* Media Queries */
+@media (max-width: 768px) {
+    .servicio {
+        width: 100%; /* Cada servicio ocupa el 100% en pantallas pequeñas */
+    }
+    
+    header h1 {
+        font-size: 1.8em; /* Ajusta el tamaño de la fuente del título */
+    }
 
+    header nav ul li a {
+        font-size: 1.2em; /* Ajusta el tamaño de la fuente de los enlaces */
+    }
+}
