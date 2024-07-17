@@ -132,7 +132,7 @@ section h2 {
 
 .servicio img {
     width: 100%; /* Imagen ocupa todo el ancho disponible */
-    height: 70%; /* Ajusta automáticamente la altura para mantener la proporción */
+    height: auto; /* Altura de la imagen ajustada automáticamente */
     border-radius: 8px; /* Bordes redondeados para la imagen */
     margin-bottom: 10px; /* Espacio inferior entre imagen y contenido */
 }
