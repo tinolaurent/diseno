@@ -90,7 +90,7 @@ header nav ul li a:hover {
 section {
     background-color: transparent; /* Color de fondo transparente para las secciones */
     color: #ffffff; /* Color de texto para blanco */
-    padding: 40px 0; /* Relleno interno superior e inferior */
+    padding: 20px 0; /* Relleno interno superior e inferior */
 }
 
 section h2 {
