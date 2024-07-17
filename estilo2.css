@@ -74,8 +74,8 @@ header nav ul li a:hover {
     position: relative; /* Permite la colocación de elementos hijos de forma relativa */
     text-align: justify; /* Justifica el texto dentro de esta sección */
     color: #ffffff; /* Color de texto para blanco */
-    margin-top: 20px; /* Margen superior de 20px */
-    margin-bottom: 20px; /* Margen inferior de 20px */
+    /*margin-top: 20px; /* Margen superior de 20px */
+    /*margin-bottom: 20px; /* Margen inferior de 20px */
 }
 
 /* Estilos del contenedor que dice bienvenido/a al diseño */
