@@ -185,7 +185,7 @@ form button:hover {
 
 /* Estilo para el pie de página */
 footer {
-    background-color: transparent; /* Color
+    background-color: transparent; /* Color transparente del fondo*/
     color: #fff;  /*Define el color del texto del <footer> como blanco (#fff). */
     text-align: center;  /*Centra el contenido del <footer> horizontalmente dentro de su contenedor. */
     padding: 10px 0;  /*Añade un relleno de 10px arriba y abajo dentro del <footer>, asegurando un espacio uniforme alrededor del contenido del footer. */
