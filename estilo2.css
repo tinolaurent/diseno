@@ -25,7 +25,7 @@ body {
 header {
     max-width: 100%; /* Limita el ancho máximo del encabezado */
     width: 100%; /* Hace que el encabezado ocupe todo el ancho disponible */
-    height: 150px; /* Establece la altura del encabezado */
+    /*height: 150px; /* Establece la altura del encabezado */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* Fondo con imagen y gradiente */
     background-size: cover; /* Cubre el encabezado con la imagen */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
@@ -70,7 +70,7 @@ header nav ul li a:hover {
 }
 
 #inicio {
-    height: 150px; /* Altura de la sección de inicio */
+    /*height: 150px; /* Altura de la sección de inicio */
     position: relative; /* Permite la colocación de elementos hijos de forma relativa */
     text-align: justify; /* Justifica el texto dentro de esta sección */
     color: #ffffff; /* Color de texto para blanco */
