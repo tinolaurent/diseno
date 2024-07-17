@@ -12,6 +12,7 @@ body {
     background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
     font-family: Arial, sans-serif; /* Define la fuente principal para todo el cuerpo del documento */
     line-height: 1.6; /* Establece la altura de línea a 1.6 veces el tamaño de la fuente actual */
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
 .container { /*.container puede ser usada en varios lugares de tu HTML y se aplica a todos los elementos que tengan esa clase.*/
