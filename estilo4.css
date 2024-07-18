@@ -159,6 +159,9 @@ footer p {
 }
 /* Media Queries */
 @media (max-width: 768px) {
+    body {
+        Width:100%;
+    }    
     .servicio {
         width: 100%; /* Cada servicio ocupa el 100% en pantallas pequeñas */
     }
