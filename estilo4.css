@@ -160,7 +160,7 @@ footer p {
 /* Media Queries */
 @media (max-width: 768px) {
     body {
-        Width:100%;
+        background-position: center; /*Centra la imagen de fondo en dispositivos móviles (menos de 768px de ancho) */
     }    
     .servicio {
         width: 100%; /* Cada servicio ocupa el 100% en pantallas pequeñas */
