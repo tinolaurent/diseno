@@ -27,7 +27,7 @@ header {
     max-width: 100%; /* Limita el ancho máximo del encabezado */
     width: 100%; /* Hace que el encabezado ocupe todo el ancho disponible */
     /*height: 150px; /* Establece la altura del encabezado */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* Fondo con imagen y gradiente */
+    /*background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("fotos/portada.jpg"); /* Fondo con imagen y gradiente */
     background-size: cover; /* Cubre el encabezado con la imagen */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     background-attachment: fixed; /* Fija la imagen al fondo */
