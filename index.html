@@ -141,6 +141,7 @@
             <p>&copy; 2024 Ing. Laurentino Saavedra Vargas. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <a href="#inicio" class="volver-arriba">↑ Ir Arriba</a>
     <!-- Script para obtener y mostrar la fecha actual -->
     <script>
         // Función para obtener y mostrar la fecha actual
@@ -155,6 +156,21 @@
         window.onload = function() {
             mostrarFecha();
         };
+        // Función para mostrar/ocultar el botón de volver arriba según el desplazamiento
+        window.onscroll = function() {
+            var btnVolverArriba = document.querySelector('.volver-arriba');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btnVolverArriba.style.display = 'block';
+            } else {
+                btnVolverArriba.style.display = 'none';
+            }
+        };
+
+        // Smooth scrolling para el enlace de volver arriba
+        document.querySelector('.volver-arriba').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#inicio').scrollIntoView({ behavior: 'smooth' });
+        });
     </script>
 </body>
 </html>
