@@ -102,8 +102,14 @@ section h2 {
 /* Estilos para la presentación de logos en sección empresas */
 .logos-section {
     display: flex; /* Alineación horizontal */
+    flex-wrap: wrap;
     justify-content: space-around; /* Espacio equitativo entre logos */
     align-items: center; /* Alineación vertical al centro */
+}
+.logos-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; /* Espacio entre los logos */
 }
 /* Estilos para una sección específica de servicios */
 #servicios {
@@ -237,7 +243,28 @@ footer p {
     header nav ul li a {
         font-size: 1.2em; /* Ajusta el tamaño de la fuente de los enlaces */
     }
-    logos-section {
-        width:50%;
-    }    
+    .logos-section .logo-bp {
+        width: 40%; /* Tamaño de Logo BP en dispositivos móviles */
+    }
+    .logos-section .logo-ecopetrol {
+        width: 40%; /* Tamaño de Logo Ecopetrol en dispositivos móviles */
+    }
+    .logos-section .logo-frontera {
+        width: 35%; /* Tamaño de Logo Frontera en dispositivos móviles */
+    }
+    .logos-section .logo-total {
+        width: 10%; /* Tamaño de Logo total en dispositivos móviles */
+    }
+    .logos-section .logo-hocol {
+        width: 35%; /* Tamaño de Logo hocol en dispositivos móviles */
+    }
+    .logos-section .logo-petrobras {
+        width: 45%; /* Tamaño de Logo petrobras en dispositivos móviles */
+    }
+    .logos-section .logo-sipetrol {
+        width: 10%; /* Tamaño de Logo sipetrol en dispositivos móviles */
+    }
+    .logos-section .logo-alberta {
+        width: 10%; /* Tamaño de Logo alberta en dispositivos móviles */
+    } 
 }
