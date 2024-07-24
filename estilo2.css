@@ -164,8 +164,8 @@ section h2 {
 
 .info-contacto-grid img {
     grid-column: 1; /* Imagen en la primera columna */
-    width: 37%;
-    height: 37%;
+    width: 40%;
+    height: 40%;
 }
 
 .info-contacto-grid p {
