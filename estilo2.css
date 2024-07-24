@@ -159,7 +159,7 @@ section h2 {
     display: grid; /* Utiliza CSS Grid para el diseño */
     grid-template-columns: auto auto; /* Dos columnas automáticas */
     align-items: left; /* Alinea verticalmente los elementos a la izquierda */
-    column-gap: 10px; /* Espacio entre columnas */
+    column-gap: 0px; /* Espacio entre columnas */
 }
 
 .info-contacto-grid img {
