@@ -237,4 +237,7 @@ footer p {
     header nav ul li a {
         font-size: 1.2em; /* Ajusta el tamaño de la fuente de los enlaces */
     }
+    logos-section {
+        width:50%;
+    }    
 }
