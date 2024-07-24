@@ -99,7 +99,12 @@ section h2 {
     margin-bottom: 20px; /* Margen inferior de 20px para separación */
     text-align: center; /* Centra el texto del encabezado */
 }
-
+/* Estilos para la presentación de logos en sección empresas */
+.logos-section {
+    display: flex; /* Alineación horizontal */
+    justify-content: space-around; /* Espacio equitativo entre logos */
+    align-items: center; /* Alineación vertical al centro */
+}
 /* Estilos para una sección específica de servicios */
 #servicios {
     padding: 40px 0; /* Espacio interno superior e inferior */
